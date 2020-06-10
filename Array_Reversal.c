@@ -5,8 +5,9 @@ int main()
 {
     int n,temp;
     scanf("%d",&n);
-
-    int *arr = (int *)calloc(n,sizeof(int));
+ 
+    //DAM & initialise it with 0
+   int *arr = (int *)calloc(n,sizeof(int));
 
     for(int i=0; i<n; i++)
         scanf("%d",(arr+i));
@@ -21,6 +22,7 @@ int main()
     for(int i=0; i<n; i++)
         printf("%d ",*(arr+i));
 
+    //delete the DAM
     free(arr);
 
     return 0;
