@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX_HEIGHT 41
+
 typedef struct
 {
   int length,width,height;
