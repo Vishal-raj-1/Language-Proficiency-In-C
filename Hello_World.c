@@ -4,7 +4,7 @@
 int main()
 {
     char s[100];
-    gets(s);
+    gets(s);//scanf("%[^\n]%*c", s) is preferred
     
     printf("Hello, World!\n%s",s);
     
