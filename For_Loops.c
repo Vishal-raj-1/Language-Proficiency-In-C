@@ -25,7 +25,7 @@ int main()
             printf("eight");
         else if(n == 9)
             printf("nine");
-        else if(n > 9 & n&1)
+        else if(n&1)
             printf("odd");
         else
             printf("even");
