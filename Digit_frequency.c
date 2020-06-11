@@ -10,6 +10,7 @@ int main()
         if(c == '\n')
             break;
             
+        //if char is numeric char
         if(c >= '0' && c <= '9')
             count[c - '0']++;
     }
