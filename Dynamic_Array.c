@@ -4,18 +4,18 @@
 int main()
 {
     int total_number_of_shelves;
-    scanf("%d", &total_number_of_shelves);
+    scanf("%d",&total_number_of_shelves);
 
     int total_number_of_queries;
-    scanf("%d", &total_number_of_queries);
+    scanf("%d",&total_number_of_queries);
 
-    int *total_number_of_books = (int *)calloc(total_number_of_shelves, sizeof(int));
-    int **total_number_of_pages = (int **)calloc(total_number_of_shelves, sizeof(int*));
+    int *total_number_of_books = (int *)calloc(total_number_of_shelves,sizeof(int));
+    int **total_number_of_pages = (int **)calloc(total_number_of_shelves,sizeof(int*));
 
-    while (total_number_of_queries--)
+    while (total_number_of_queries --)
     {
         int type_of_query;
-        scanf("%d", &type_of_query);
+        scanf("%d",&type_of_query);
 
         if(type_of_query == 1)
         {
