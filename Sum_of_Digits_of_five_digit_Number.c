@@ -10,7 +10,7 @@ int main()
         sum += n%10;
         n /= 10;
     }
-    printf("%d\n",sum);
     
+    printf("%d\n",sum);
     return 0;
 }
