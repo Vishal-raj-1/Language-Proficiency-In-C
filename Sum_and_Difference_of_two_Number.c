@@ -8,6 +8,5 @@ int main()
     scanf("%f %f",&f1,&f2);
     
     printf("%d %d\n%.1f %.1f\n",n1+n2,n1-n2,f1+f2,f1-f2);
-    
     return 0;
 }
