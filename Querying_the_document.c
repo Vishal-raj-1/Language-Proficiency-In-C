@@ -12,7 +12,6 @@ char**** get_document(char* text)
         if(text[i+1] == '\n')
             text[i++] = 0;
 
-
         switch(text[i])
         {
         case '\n':
