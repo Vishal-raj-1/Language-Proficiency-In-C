@@ -5,7 +5,7 @@ int main()
 {
     char *arr = malloc(1024*sizeof(char));
 
-    scanf("%[^\n]%*c",arr);
+    scanf("%[^\n]%*c", arr);
     int len = strlen(arr);
 
     arr = realloc(arr,len + 1);
