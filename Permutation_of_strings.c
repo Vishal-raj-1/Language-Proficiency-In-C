@@ -30,7 +30,6 @@ int next_permutation(int n,char **s)
         i++;
         j--;
     }
-
     return 1;
 }
 
