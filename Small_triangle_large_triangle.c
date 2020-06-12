@@ -6,10 +6,9 @@ typedef struct
     int a,b,c;
 } triangle;
 
-double area(triangle tr)
+float area(triangle tr)
 {
-    double p = (tr.a + tr.b + tr.c)/2.0;
-
+    float p = (tr.a + tr.b + tr.c)/2.0;
     return (p * (p-tr.a) * (p-tr.b) * (p-tr.c));
 }
 
@@ -41,7 +40,9 @@ int main()
     {
         scanf("%d %d %d",&tr[i].a,&tr[i].b,&tr[i].c);
     }
+    
     sort_by_area(tr,n);
+    
     for(int i=0; i<n; i++)
     {
         printf("%d %d %d\n",tr[i].a,tr[i].b,tr[i].c);
