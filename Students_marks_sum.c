@@ -33,7 +33,6 @@ int main()
     scanf(" %c",&gender);
 
     sum = marks_summation(marks,number_of_students,gender);
-
     printf("%d\n",sum);
 
     free(marks);
