@@ -25,7 +25,7 @@ int distinct_char(const char *a)
 
     for(int i=0; a[i]; i++)
     {
-        alpha[a[i] - 'a']++;
+        alpha[a[i]-'a']++;
     }
 
     for(int i=0; i<26; i++)
