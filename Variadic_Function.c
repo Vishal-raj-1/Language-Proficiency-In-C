@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdarg.h>
-//Variadic Function
 
+//Variadic Function
 int sum(int count,...)
 {
     int Sum = 0;
